@@ -17,7 +17,7 @@ configFile=$4
 #### CONFIGURABLE VARIABLES ######
 #destination absolute path. It must be pre created or you can
 # improve this script to create if not exists
-destAbsPath=/home/rcoli/Desktop/$projectName/$env
+destAbsPath=/Users/ww/Desktop/$projectName/$env
 configFolder=resources
 ##############################################################
 
