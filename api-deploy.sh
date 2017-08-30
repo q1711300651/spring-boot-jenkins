@@ -3,6 +3,7 @@
 # COMMAND LINE VARIABLES
 #enviroment FIRST ARGUMENT 
 # Ex: dev | sit | uat
+echo "helloworld ${WORKSPACE}"
 env=$1
 # deploy port SECOND ARGUMENT
 # Ex: 8090 | 8091 | 8092 
@@ -13,11 +14,11 @@ projectName=$3 #spring-boot
 # Ex: application-localhost.yml
 configFile=$4
 
-
 #### CONFIGURABLE VARIABLES ######
 #destination absolute path. It must be pre created or you can
 # improve this script to create if not exists
 destAbsPath=/Users/ww/Desktop/$projectName/$env
+mkdir ${destAbsPath}
 configFolder=resources
 ##############################################################
 
